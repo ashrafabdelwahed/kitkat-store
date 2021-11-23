@@ -1,0 +1,9 @@
+.card .card-body .active {
+  background: transparent;
+  border-color: #e0e0e0;
+}
+
+.card .card-body .active a {
+  color: #294CFF;
+}
+/*# sourceMappingURL=my_account.css.map */

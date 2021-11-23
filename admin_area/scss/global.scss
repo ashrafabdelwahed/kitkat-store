@@ -1,0 +1,66 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6,p,span {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: #000;
+    transition: .3s;
+    &:hover {
+        color: #294CFF;
+    }
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+.content-area  {
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition: .3s;
+    will-change: width;
+    float: right;
+    background: #F9F9F9;
+    &.no-sidebar {
+        width: 100%;
+        }
+    }
+
+
+    .header {
+        background: #292c33;
+        padding: 20px;
+        .toggle-sidebar {
+            cursor: pointer;
+            color: #FFF;
+        }
+
+        .dropdown-toggle {
+            color: #FFF;
+        }
+
+        .dropdown-menu {
+            left: auto;
+            right: 0px;
+            margin: 20px 0px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
+            .dropdown-item {
+                transition: .5s;
+                
+                &:hover a {
+                    color:#555;
+                }
+
+            }
+        }
+    }

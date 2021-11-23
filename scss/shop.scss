@@ -1,0 +1,45 @@
+// breadcrumb
+.breadcrumb-content {
+    background: #fbfbfb;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.12);
+
+    @media (max-width: 991px) {
+        padding-top: 30px !important;
+    }
+
+    .breadcrumb {
+        background: #fbfbfb;
+    &>li+li:before {
+        content: '>\00a0';
+    }
+    }
+}
+
+
+// sidebar 
+
+.sidebar-menu {
+
+    .sidebar-body {
+        ul {
+
+            li {
+                width: 80%;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #e3e3e3;
+
+                }
+                a {
+                    padding: 13px 0 10px 2px;
+                    display: block;
+                    color: #8d8d8d!important;
+                    transition: .3s;
+                    &:hover {
+                        color: #294CFF !important;
+                    }
+                }
+            }
+        }
+    }
+}

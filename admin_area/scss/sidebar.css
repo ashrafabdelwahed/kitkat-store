@@ -1,0 +1,99 @@
+.page {
+  min-height: 100vh;
+}
+
+.page .logo-area {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.page .sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #292c33;
+  color: #FFF;
+  padding: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page .sidebar.no-sidebar {
+  left: -250px;
+}
+
+.page .sidebar .links-area li {
+  cursor: pointer;
+}
+
+.page .sidebar .links-area li a {
+  color: #CCC;
+  padding: 15px 10px;
+  display: block;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.page .sidebar .links-area li a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.page .sidebar .links-area > li > a {
+  position: relative;
+  color: #FFF;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.page .sidebar .links-area > li > a:hover {
+  padding-left: 18px;
+}
+
+.page .sidebar .links-area > li > a .fa-angle-right {
+  float: right;
+  position: relative;
+  top: 6px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.page .sidebar .links-area > li > a .fa-angle-right.down {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.page .sidebar .links-area .child-links {
+  position: relative;
+  display: none;
+  padding: 0 20px;
+}
+
+.page .sidebar .links-area .child-links:before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #666;
+}
+
+.page .sidebar .links-area .child-links a {
+  position: relative;
+  font-size: 14px;
+}
+
+.page .sidebar .links-area .child-links a:hover:before {
+  content: '';
+  position: absolute;
+  left: -17px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #fff;
+}
+/*# sourceMappingURL=sidebar.css.map */

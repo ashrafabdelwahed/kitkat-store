@@ -1,0 +1,26 @@
+{
+  "name": "kitkat-store",
+  "version": "1.0.0",
+  "description": "e-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A.ABDELWAHED",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "gulp-livereload": "^4.0.2",
+    "lightbox2": "^2.11.1",
+    "node-sass": "^4.13.0",
+    "static-server": "^2.2.1"
+  }
+}

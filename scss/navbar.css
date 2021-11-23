@@ -1,0 +1,100 @@
+.navbar-change {
+  background-color: #FFF !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.navbar-change .cart-sm {
+  margin-left: 40%;
+}
+
+.navbar-change .cart-sm .nav-link {
+  text-decoration: none;
+  position: relative;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: 1;
+}
+
+.navbar-change .cart-sm .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-change .cart-sm .nav-link .C-Product {
+  z-index: 2;
+  position: absolute;
+  background: #294CFF;
+  border-radius: 9px;
+  left: 25px;
+  top: 0px;
+  padding: 0px 5px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.navbar-change .navbar-brand {
+  font-weight: bold !important;
+  color: #0E131F;
+}
+
+.navbar-change .navbar-nav {
+  margin: 10px 0;
+}
+
+.navbar-change .navbar-nav .nav-item {
+  margin: 0 0 0;
+}
+
+.navbar-change .navbar-nav .nav-item .nav-link {
+  cursor: pointer;
+}
+
+.navbar-change .navbar-nav .shopping-icon .nav-link {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-change .navbar-nav .shopping-icon .nav-link .C-Product {
+  z-index: 2;
+  position: absolute;
+  background: #294CFF;
+  border-radius: 9px;
+  left: 25px;
+  top: 0px;
+  padding: 0px 5px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.search-form {
+  position: fixed !important;
+  top: 15px;
+  z-index: 99999;
+}
+
+.search-form .btn-search {
+  position: absolute;
+  z-index: 999;
+  top: 12px;
+  right: 80px;
+  border: none;
+  background-color: #FFF;
+}
+
+.search-form .search-close {
+  position: absolute;
+  z-index: 999;
+  top: 13px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.btn-search-sm {
+  position: absolute;
+  z-index: 222;
+  right: 5px;
+  top: 6px;
+}
+/*# sourceMappingURL=navbar.css.map */

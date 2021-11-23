@@ -1,0 +1,98 @@
+.navbar-change {
+    background-color: #FFF !important;
+    border-bottom: 1px solid rgba( 0,0,0,0.08 );
+    .cart-sm {
+        margin-left: 40%;
+        .nav-link {
+            text-decoration: none;
+            position: relative;
+            color: rgba(0,0,0,.5);
+            transition: .3s;
+            &:hover {
+                color: rgba(0,0,0,.7);
+            }
+            z-index: 1;
+            .C-Product {
+                z-index: 2;
+                position: absolute;
+                background: #294CFF;
+                border-radius: 9px;
+                left: 25px;
+                top: 0px;
+                padding: 0px 5px;
+                color: #FFF;
+                font-weight: bold;
+                font-size: 11px;
+            }
+        }
+    }
+
+    .navbar-brand {
+        font-weight: bold !important;
+        color: #0E131F;
+    }
+
+    .navbar-nav {
+        margin: 10px 0;
+        .nav-item {
+            margin:  0 0 0;
+            .nav-link {
+                cursor: pointer;
+            }
+            
+
+        }
+
+        .shopping-icon {
+            .nav-link {
+                position: relative;
+                z-index: 1;
+                .C-Product {
+                    z-index: 2;
+                    position: absolute;
+                    background: #294CFF;
+                    border-radius: 9px;
+                    left: 25px;
+                    top: 0px;
+                    padding: 0px 5px;
+                    color: #FFF;
+                    font-weight: bold;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.search-form {
+    position: fixed !important;
+    top: 15px;
+    z-index: 99999;
+    .btn-search {
+        position: absolute;
+        z-index: 999;
+        top: 12px;
+        right: 80px;
+        border: none;
+        background-color: #FFF;
+    
+    }
+
+    .search-close {
+        position: absolute;
+        z-index: 999;
+        top: 13px;
+        right: 50px;
+        cursor: pointer;
+    }
+}
+
+.btn-search-sm  {
+    position: absolute;
+    z-index: 222;
+    right: 5px;
+    top: 6px;
+}

@@ -1,0 +1,110 @@
+.page {
+    min-height: 100vh;
+    .logo-area {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        a {
+            color: #FFF;
+
+        }
+    }
+
+    .sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #292c33;
+        color: #FFF ;
+        padding: 15px;
+        transition: 0.3s;
+        &.no-sidebar {
+            left: -250px;
+        }
+
+
+        .links-area {
+            // all links
+            li {
+                cursor: pointer;
+                a{
+                    color: #CCC;
+                    padding: 15px 10px;
+                    display: block;
+                    transition: .3s;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: #FFF;
+                    }
+                }
+
+            }
+
+            // Main links
+            > li > a {
+                position: relative;
+                color: #FFF;
+                transition: .5s;
+
+                &:hover {
+                    padding-left: 18px;
+                }
+
+                .fa-angle-right {
+                    float: right;
+                    position: relative;
+                    top: 6px;
+                    transition: .3s;
+
+                    &.down {
+                    transform: rotate(90deg);
+                    }
+                }
+
+            }
+
+            .toggle-submenu {
+
+            }
+
+            .child-links {
+                position: relative;
+                display: none;
+                padding: 0 20px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 3px;
+                    top: 0;
+                    width: 3px;
+                    height: 100%;
+                    background-color: #666 ;
+
+                }
+
+                a {
+                    position: relative;
+                    font-size: 14px;
+                    
+                    &:hover:before {
+                        content: '';
+                        position: absolute;
+                        left: -17px;
+                        top: 0;
+                        width: 3px;
+                        height: 100%;
+                        background-color: #fff ;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+

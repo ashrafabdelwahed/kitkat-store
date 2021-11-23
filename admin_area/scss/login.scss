@@ -1,0 +1,18 @@
+.login-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%),linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%),linear-gradient(33deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 100%);
+
+    form {
+        background: #FFF;
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+        padding: 35px;
+        border: 1px solid #c4c4c4;
+        box-shadow: 1px 1px 7px #333;
+    }
+}

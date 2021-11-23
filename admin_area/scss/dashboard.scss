@@ -1,0 +1,93 @@
+// card
+.card-dashboard{
+
+    .card-header {
+
+    }
+
+    .card-body {
+        a {
+            color: #FFF;
+            font-weight: bold;
+            transition: all .8s ease-in-out;
+            &:hover {
+                color: #555;
+            }
+        }
+    }
+}   
+.card-product {background:linear-gradient(to right,#fe9365,#feb798);}
+.card-customer {background: linear-gradient(to right,#0ac282,#0df3a3);}
+.card-p-cats {background:linear-gradient(to right,#fe5d70,#fe909d);}
+.card-orders{background:linear-gradient(to right,#01a9ac,#01dbdf);}
+
+
+
+// table
+.table-card-header {
+    background:linear-gradient(to right, #180d19, #3c9d99);
+    color: #FFF;
+}
+
+
+
+
+// about developer
+hr{
+    border: 0;
+    height: 1px;
+    margin: 10px 0 10px 0;
+    &.dotted{
+        border-bottom: 1px #dddddd dotted;
+        height: 0px;
+        margin: 10px 0 10px 0;
+    }
+    
+}
+
+
+.thumb-info-title{
+    background: rgba(36,27,28,.9);
+    bottom: 50%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.thumb-info-inner{
+    display: block;
+}
+
+.thumb-info-type{
+    background: #0088cc;
+    display: inline-block;
+    border-radius: 2px;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 8px -2px -15px -2px;
+    padding: 2px 9px;
+    text-transform: none;
+}
+
+.widget-content-expanded{
+    font-size: 15px;
+    span{
+        font-weight: 600;
+    }
+
+    i{
+        color: #0088cc;
+        margin-right: 5px;
+    }
+    
+}
+
+

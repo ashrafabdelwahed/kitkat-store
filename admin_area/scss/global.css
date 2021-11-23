@@ -1,0 +1,48 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a:hover {
+  color: #294CFF;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.content-area {
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  -webkit-transition: .3s;
+  transition: .3s;
+  will-change: width;
+  float: right;
+  background: #f2f1f6;
+}
+
+.content-area.no-sidebar {
+  width: 100%;
+}
+
+.header {
+  background: #292c33;
+  padding: 20px;
+}
+
+.header .toggle-sidebar {
+  cursor: pointer;
+  color: #FFF;
+}
+/*# sourceMappingURL=global.css.map */

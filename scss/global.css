@@ -1,0 +1,123 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a:hover {
+  color: #294CFF;
+}
+
+.advantages .card-body {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.advantages .card-body:hover a {
+  color: #294CFF;
+}
+
+.hot h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.hot p {
+  color: #939393;
+  font-size: 24px;
+  margin: 0;
+}
+
+.hot span {
+  height: 1px;
+  width: 35px;
+  background: #e0e0e0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.content .card {
+  -webkit-box-shadow: 0px 4px 9px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 9px 3px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 576px) {
+  .content .card {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.content .card .card-body {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.content .card .card-body .card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5E5E5E;
+}
+
+.content .card .card-body .product-price {
+  font-weight: bold;
+  font-size: 22px;
+  color: #505050;
+}
+
+.content .card .add-cart {
+  color: #8d8d8d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13.8px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.content .card .add-cart:hover {
+  color: #111;
+}
+
+.content-account a {
+  width: 30%;
+  padding: 10px 0;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.slider {
+  margin-top: 7%;
+}
+
+@media (max-width: 575.98px) {
+  .slider {
+    padding-top: 10%;
+  }
+}
+
+.modal .modal-body .customer-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modal .modal-body .customer-data .img img {
+  height: 55px;
+  width: 55px;
+}
+/*# sourceMappingURL=global.css.map */
